@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    content: "";
+    height: 1009px;
+    width: 1009px;
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-image: url(../images//backcover.svg);
+    right: -175px;
+    top: 0rem;
+     z-index: -2;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 25px;
+}
+nav>img{
+    height: 48px;
+}
+.nav-items{
+    font-size: 20px;
+    display: flex;
+    font-family:"Roboto";
+    color: #1e2872;
+    font-weight: 800;
+    gap: 40px;
+}
+.signin-btn{
+    padding: 3px 18px;
+    background:linear-gradient(90deg , #975df2, #fe8add); ;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-right: -50px;
+}
+.intro-section{
+   display: flex;
+   grid-template-columns: 1fr 1fr; 
+}
+.left-section{
+    padding-top: 165px;
+    width: 40vw;
+}
+.left-section>h1{
+    font-size: 4rem;
+    font-family: "Roboto";
+    color: #1e2872;
+    margin-left: 140px;
+    /* width: fit-content; */
+}
+.left-section>h4{
+    margin-top: 60px;
+    /* width: 420px; */
+    margin-left: 140px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #33355c;
+    font-size: 18px;
+}
+.learn-more-btn{
+    margin-left:140px;
+    font-size: 30px;
+    color: #ffffff;
+    background: linear-gradient(90deg , #975df2, #fe8add);
+    border: none;
+    padding: 15px 38px;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 75px;
+}
+.imgs-div>img:nth-child(3){
+    height: 900px;
+    position: absolute;
+    margin-right: -220px;
+    right: 8%;
+    z-index: -1;
+}
+.vector-img{
+    height: 143px;
+    position: absolute; 
+    bottom: -200px;
+    /* left: -15rem; */
+}
+.vector-dot{
+    height: 25px;
+    position: absolute;
+    bottom: -95px; 
+    right: 710px;
+}
