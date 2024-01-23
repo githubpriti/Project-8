@@ -1,6 +1,6 @@
 # Project 8:
 
-[Live link](https://lively-souffle-59ba3f.netlify.app)
+[Live link](https://project-8-lime.vercel.app/)
 
 ## Name:Vaishnavi Jaju
 
